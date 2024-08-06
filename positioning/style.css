@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: red;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.child {
+    margin: 5px 10px 5px 10px;   
+}
+
+.child-one {
+    background-color: green;
+}
+
+.child-two {
+    background-color: blue;
+}
+
+.child-three {
+    background-color: yellow;
+}
