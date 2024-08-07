@@ -1,7 +1,6 @@
 #home {
     display: flex;
     position: relative;
-    flex-flow: row nowrap;
     min-height: calc(100vh - 96px);
 }
 
