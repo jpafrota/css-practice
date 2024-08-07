@@ -27,7 +27,7 @@
     gap: 18px;
     border-radius: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: var(--color-neutral-0);
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
@@ -39,8 +39,8 @@
     position: absolute;
     top: -6px;
     right: -6px;
-    background-color: #e9a209;
-    color: #fff9ea;
+    background-color: var(--color-primary-5);
+    color: var(--color-primary-1);
     font-size: 1.563rem;
     width: 70px;
     height: 70px;
@@ -53,7 +53,7 @@
 }
 
 .dish-rate i {
-    color: #e9a209;
+    color: var(--color-primary-5);
 }
 
 .dish-price {
