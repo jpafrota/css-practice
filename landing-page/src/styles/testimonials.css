@@ -29,6 +29,7 @@
 
 .feedback {
     display: flex;
+    align-items: center;
     gap: 20px;
     background-color: white;
     border-radius: 12px;
@@ -50,4 +51,47 @@
 
 .feedback-content i {
     color: #e9a209;
+}
+
+@media screen and (max-width: 1170px) {
+    #testimonials {
+        flex-direction: column;
+    }
+
+    #testimonial_chef {
+        display: none;
+    }
+
+    #testimonials_content .section-subtitle {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #testimonials_content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    #testimonials_content{
+        width: 100%;
+    }
+
+    #testimonials_content .section-subtitle {
+        font-size: 2rem;
+    }
+
+    .feedback {
+        flex-direction: column;
+    }
+
+    .feedback-content p {
+        flex-direction: column;
+        align-items: center;
+    }
 }
